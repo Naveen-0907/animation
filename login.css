@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    background-color: #0F4954;
+    padding: 10px;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+} 
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo {
+    font-size: 38px;
+    margin: 0;
+    font-family: poppins;
+    color: #EECBB4;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.list li {
+    list-style: none;
+    padding: 10px;
+}
+.list li a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: poppins;
+    color: #EECBB4;
+    font-weight: 500;
+}
+.list li a:hover{
+    background-color: #EECBB4;
+    padding:10px;
+    color: #0F4954;
+    border-radius: 20px;
+}
+
+.btn {
+    padding: 10px 25px;
+    background-color: #EECBB4;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: poppins;
+    color: #0F4954;
+    font-weight: 600;
+
+}
+.btn:hover{
+    background-color: #201F7F;
+    color: #EECBB4;
+}
+.bg{
+    background: linear-gradient(to bottom, #0F4954, #EECBB4);
+    height: 700px;
+    margin-top: 2px;
+}
+.main-log{
+    width: 350px;
+    padding: 30px;
+    border: 2px solid black;
+    position: absolute;
+    /* background-color: #0F4954; */
+   
+    top: 50%;
+    left: 50%;
+    color: #EECBB4;
+    transform: translate(-50% , -50%);
+    /* box-shadow: 1px 0px 91px 40px #EECBB4; */
+}
+.welcome{
+    text-align: center;
+    font-size: 50px;
+    font-family: poppins;
+}
+.name{
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: poppins;
+}
+.password{
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: poppins;
+}
+.reset{
+    margin-top: 5px;
+}
+
+.input{
+    width: 100%;
+    height: 35px;
+}
+.input::placeholder{
+    padding: 5px;
+    font-size: 14px;
+    font-family: poppins;
+}
+.forget{
+    float: right;
+    margin-top: 5px;
+}
+.button {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.button button {
+   
+    border-radius: 10px;
+    border: none;
+}
+.button button a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 25px;
+    font-family: poppins;
+}
+.button button:hover{
+    background-color: #0F4954;
+    
+}
+.button button a:hover{
+    color: #EECBB4;
+}
+.sing{
+    float: right;
+}
+.singup{
+    padding: 10px 25px;
+    margin: 10px;
+    border-color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #EECBB4;
+    background-color: #0F4954;
+}
